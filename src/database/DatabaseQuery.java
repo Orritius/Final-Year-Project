@@ -29,7 +29,7 @@ public abstract class DatabaseQuery {
 
     /**
      * Connects to the MySQL database that contains information about users, albums, artists and reviews.
-     * returns true if successful.
+     * returns true if successful. Password is randomly made up for Github.
      * @return
      */
     public static boolean setUpDatabaseConnection(){
